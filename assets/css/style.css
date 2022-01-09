@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Removed unused fonts; main-f-c=font color; main-f-f=font family */
+:root {
+   
+ --main-f-c: #ffffff;
+ --main-f-f: Calibri, sans-serif;
+ --float-l: left;
+ --float-r: right
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #2a607c;
+    color: var(--main-f-c);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+#seo {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--main-f-f);
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--main-f-c);
+    text-decoration: none;
+}
+
+/* added font padding to adjust for new block height 940px */
+p {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: var(--float-l);
+    margin-right: 25px;
+}
+
+.float-right {
+    float: var(--float-r);
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* modified aside height from 800px to 940px to match the three content divs */
+.benefits {
+    margin-right: 20px;
+    padding: 30px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 940px;
+    font-family: var(--main-f-f);
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: var(--main-f-c);
+}
+ 
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.content-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--main-f-f);
+    background-color: #0072bb;
+    color: var(--main-f-c);
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
