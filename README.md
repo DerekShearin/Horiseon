@@ -7,4 +7,5 @@ Removed unused fonts.
 Combined repeatative blocks.
 Suggest adding social media links to footer, or alternatively the Social Media content box.
 Added alt tags for images for accessibility.
-changed some tags to semantic tags for accessibility 
+Changed some tags to semantic tags for accessibility 
+Had issues with GITHUB had to recreate the Repository/folder. Commit history lost.
